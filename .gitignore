@@ -1,0 +1,24 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Downloaded source material
+data/raw/*
+data/processed/*
+data/wayback/*
+
+# Generated results
+results/*
+
+# Preserve directory structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/wayback/.gitkeep
+!results/.gitkeep
