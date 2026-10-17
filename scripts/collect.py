@@ -17,6 +17,7 @@ from urllib.parse import urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
+from markdownify import markdownify as to_markdown
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://mistral.ai'
@@ -90,10 +91,34 @@ def jsonld_article(soup):
     return {}
 
 
+def render_article(node):
+    """Render one DOM subtree once; never select nested p/li elements independently."""
+    fragment = BeautifulSoup(str(node), 'html.parser')
+    for tag in fragment.select('nav, footer, header, script, style, noscript, form, aside, button'):
+        tag.decompose()
+    # Remove repeated site navigation that is sometimes embedded in the main element.
+    for tag in fragment.select('[aria-hidden="true"], [hidden]'):
+        tag.decompose()
+    md = to_markdown(str(fragment), heading_style='ATX', bullets='-', strip=['img']).strip()
+    md = re.sub(r'\n{3,}', '\n\n', md)
+    # Strip article-toolbar text while retaining title and publication date.
+    md = re.sub(r'(?m)^\[Back to Blog\]\([^\n]+\)\n(?:\n|[^\n]*min read\n|Share this post\n|Copy url to clipboardCopied\n)*', '', md)
+    md = re.sub(r'(?m)^\s*(?:\d+\s*min read|Share this post|Copy url to clipboardCopied)\s*\n', '', md)
+    md = re.sub(r'(?m)\n\s*0%\s*$', '', md).strip()
+    # Derive counting text from the SAME rendered representation. Retain link labels,
+    # discard URL destinations and Markdown structural punctuation.
+    txt = re.sub(r'\[([^\]]+)\]\((?:[^()]|\([^()]*\))*\)', r'\1', md)
+    txt = re.sub(r'^\s{0,3}#{1,6}\s+', '', txt, flags=re.M)
+    txt = re.sub(r'^\s*(?:[-*+] |\d+\. )', '', txt, flags=re.M)
+    txt = re.sub(r'(?<!\w)[*_`~]+|[*_`~]+(?!\w)', '', txt)
+    txt = re.sub(r'\n{3,}', '\n\n', txt).strip()
+    return txt, md
+
+
 def extract(html):
     soup = BeautifulSoup(html, 'html.parser')
     ld = jsonld_article(soup)
-    title = ld.get('headline') or meta(soup, 'og:title') or (soup.title.get_text(' ', strip=True) if soup.title else '')
+    title = ld.get('headline') or ld.get('name') or meta(soup, 'og:title') or (soup.title.get_text(' ', strip=True) if soup.title else '')
     published = ld.get('datePublished') or meta(soup, 'article:published_time') or meta(soup, 'date')
     if not published:
         t = soup.find('time', datetime=True)
@@ -104,23 +129,15 @@ def extract(html):
     elif isinstance(author, list):
         author = ', '.join(x.get('name', '') if isinstance(x, dict) else str(x) for x in author)
     lang = soup.html.get('lang', '') if soup.html else ''
-    # Inspect these selectors against downloaded samples before trusting the corpus.
     candidates = [('article', soup.select_one('article')),
                   ('main', soup.select_one('main')),
                   ('[role=main]', soup.select_one('[role=main]'))]
     chosen = next(((name, node) for name, node in candidates if node is not None), None)
     if not chosen:
-        return dict(title=title, published=published, author=author, language=lang, text='', method='NONE')
+        return dict(title=title, published=published, author=author, language=lang, text='', markdown='', method='NONE')
     method, node = chosen
-    fragment = BeautifulSoup(str(node), 'html.parser')
-    for tag in fragment.select('nav, footer, header, script, style, noscript, form, aside, button'):
-        tag.decompose()
-    blocks = fragment.select('h1, h2, h3, h4, p, li, blockquote')
-    text = '\n\n'.join(x.get_text(' ', strip=True) for x in blocks if x.get_text(' ', strip=True))
-    if len(text.split()) < 50:
-        text = fragment.get_text(' ', strip=True)
-        method += ':fallback'
-    return dict(title=title, published=published, author=author, language=lang, text=text, method=method)
+    text, md = render_article(node)
+    return dict(title=title, published=published, author=author, language=lang, text=text, markdown=md, method=method)
 
 
 def main():
@@ -153,6 +170,7 @@ def main():
                 info = extract(html)
                 text = info['text']
                 (processed / f'{slug}.txt').write_text(text, encoding='utf-8')
+                (processed / f'{slug}.md').write_text(info['markdown'], encoding='utf-8')
                 status = 'OK' if len(text.split()) >= 50 else 'REVIEW_SHORT'
                 row = dict(url=url, slug=slug, title=info['title'], published=info['published'],
                            author=info['author'], language=info['language'], word_count=len(text.split()),
@@ -168,7 +186,7 @@ def main():
             writer = csv.DictWriter(f, fieldnames=FIELDS)
             writer.writeheader()
             writer.writerows(rows)
-        print('Saved results/corpus_inventory.csv; inspect sample .txt files before analysis.')
+        print('Saved results/corpus_inventory.csv; inspect sample .txt and .md files before analysis.')
 
 
 if __name__ == '__main__':
