@@ -12,6 +12,7 @@ import re
 import sys
 import time
 from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
@@ -22,7 +23,7 @@ from markdownify import markdownify as to_markdown
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://mistral.ai'
 HEADERS = {'User-Agent': 'AcademicResearchBot/0.1 (polite archival analysis; Python requests)'}
-FIELDS = ['url', 'slug', 'title', 'published', 'author', 'language', 'word_count', 'sha256', 'retrieved_at', 'extraction_method', 'status']
+FIELDS = ['url', 'slug', 'title', 'published', 'date_source', 'author', 'language', 'word_count', 'sha256', 'retrieved_at', 'extraction_method', 'status']
 
 
 def get(session, url, retries=3):
@@ -39,8 +40,6 @@ def get(session, url, retries=3):
 
 def news_url(url):
     p = urlparse(url)
-    if p.path.rstrip("/") == "/news/rss":
-        return False
     return p.hostname in {'mistral.ai', 'www.mistral.ai'} and re.match(r'^/news/[^/?#]+/?$', p.path) is not None
 
 
@@ -117,14 +116,56 @@ def render_article(node):
     return txt, md
 
 
+def normalize_date(value):
+    """Return an ISO publication date only for a real, valid calendar date."""
+    if not isinstance(value, str) or not value.strip():
+        return ''
+    value = value.strip()
+    try:
+        return datetime.strptime(value[:10], '%Y-%m-%d').date().isoformat() if re.match(r'^\d{4}-\d{2}-\d{2}(?:$|[Tt ])', value) else ''
+    except ValueError:
+        return ''
+
+
+def visible_header_date(soup):
+    """Look for a human-readable date near the article title, not in the body/footer."""
+    date_pattern = re.compile(r'^(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4}$')
+    root = soup.select_one('article') or soup.select_one('main') or soup
+    heading = root.find(['h1', 'h2']) or root.find(class_=re.compile(r'text-h[12]'))
+    # Only consider the beginning of the article (before its main body).
+    # Mistral currently uses <p> elements for both title and header date.
+    nodes = heading.parent.parent.find_all(['p', 'time', 'span'], limit=35) if heading and heading.parent and heading.parent.parent else []
+    for node in nodes:
+        if node.find(['p', 'time', 'span']):
+            continue
+        label = node.get_text(' ', strip=True)
+        if date_pattern.fullmatch(label):
+            try:
+                return datetime.strptime(label, '%B %d, %Y').date().isoformat()
+            except ValueError:
+                pass
+    return ''
+
+
 def extract(html):
     soup = BeautifulSoup(html, 'html.parser')
     ld = jsonld_article(soup)
     title = ld.get('headline') or ld.get('name') or meta(soup, 'og:title') or (soup.title.get_text(' ', strip=True) if soup.title else '')
-    published = ld.get('datePublished') or meta(soup, 'article:published_time') or meta(soup, 'date')
-    if not published:
-        t = soup.find('time', datetime=True)
-        published = t.get('datetime', '') if t else ''
+    date_candidates = [
+        ('jsonld.datePublished', ld.get('datePublished')),
+        ('meta.article:published_time', meta(soup, 'article:published_time')),
+        ('meta.date', meta(soup, 'date')),
+    ]
+    t = soup.find('time', datetime=True)
+    if t:
+        date_candidates.append(('time.datetime', t.get('datetime')))
+    date_candidates.append(('visible_header', visible_header_date(soup)))
+    published, date_source = '', 'missing'
+    for source, candidate in date_candidates:
+        valid = normalize_date(candidate)
+        if valid:
+            published, date_source = valid, source
+            break
     author = ld.get('author', '')
     if isinstance(author, dict):
         author = author.get('name', '')
@@ -136,10 +177,10 @@ def extract(html):
                   ('[role=main]', soup.select_one('[role=main]'))]
     chosen = next(((name, node) for name, node in candidates if node is not None), None)
     if not chosen:
-        return dict(title=title, published=published, author=author, language=lang, text='', markdown='', method='NONE')
+        return dict(title=title, published=published, date_source=date_source, author=author, language=lang, text='', markdown='', method='NONE')
     method, node = chosen
     text, md = render_article(node)
-    return dict(title=title, published=published, author=author, language=lang, text=text, markdown=md, method=method)
+    return dict(title=title, published=published, date_source=date_source, author=author, language=lang, text=text, markdown=md, method=method)
 
 
 def main():
@@ -174,7 +215,7 @@ def main():
                 (processed / f'{slug}.txt').write_text(text, encoding='utf-8')
                 (processed / f'{slug}.md').write_text(info['markdown'], encoding='utf-8')
                 status = 'OK' if len(text.split()) >= 50 else 'REVIEW_SHORT'
-                row = dict(url=url, slug=slug, title=info['title'], published=info['published'],
+                row = dict(url=url, slug=slug, title=info['title'], published=info['published'], date_source=info['date_source'],
                            author=info['author'], language=info['language'], word_count=len(text.split()),
                            sha256=hashlib.sha256(text.encode()).hexdigest(),
                            retrieved_at=datetime.now(timezone.utc).isoformat(),
