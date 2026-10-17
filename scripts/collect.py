@@ -40,6 +40,9 @@ def get(session, url, retries=3):
 
 def news_url(url):
     p = urlparse(url)
+    # The RSS feed (/news/rss) matches the article URL pattern but is XML.
+    if p.path.rstrip('/') == '/news/rss':
+        return False
     return p.hostname in {'mistral.ai', 'www.mistral.ai'} and re.match(r'^/news/[^/?#]+/?$', p.path) is not None
 
 
