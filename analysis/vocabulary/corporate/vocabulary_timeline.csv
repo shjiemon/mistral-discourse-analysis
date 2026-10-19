@@ -1,0 +1,122 @@
+period,aggregation,group,category,term,occurrences,articles_with_term,total_articles,total_words,per_1000_words,article_prevalence_pct
+2026-Q4,quarterly,autonomy,openness,open,1,1,4,1926,0.5192,25.0
+2026-Q4,quarterly,autonomy,openness,openness,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,openness,openly,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,openness,open-source,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,openness,open-weight,2,2,4,1926,1.0384,50.0
+2026-Q4,quarterly,autonomy,openness,open-weights,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,openness,open source,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,openness,open weights,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,openness,open models,1,1,4,1926,0.5192,25.0
+2026-Q4,quarterly,autonomy,choice,choice,1,1,4,1926,0.5192,25.0
+2026-Q4,quarterly,autonomy,choice,choices,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,choice,choose,4,2,4,1926,2.0768,50.0
+2026-Q4,quarterly,autonomy,choice,choosing,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,choice,freedom,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,choice,flexibility,1,1,4,1926,0.5192,25.0
+2026-Q4,quarterly,autonomy,choice,flexible,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,choice,option,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,choice,options,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,choice,alternative,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,choice,alternatives,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,control,control,14,2,4,1926,7.269,50.0
+2026-Q4,quarterly,autonomy,control,controls,4,2,4,1926,2.0768,50.0
+2026-Q4,quarterly,autonomy,control,controlled,1,1,4,1926,0.5192,25.0
+2026-Q4,quarterly,autonomy,control,controlling,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,control,ownership,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,control,own,10,2,4,1926,5.1921,50.0
+2026-Q4,quarterly,autonomy,control,custom,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,control,customize,4,3,4,1926,2.0768,75.0
+2026-Q4,quarterly,autonomy,control,customized,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,control,customizable,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,control,customization,1,1,4,1926,0.5192,25.0
+2026-Q4,quarterly,autonomy,control,customise,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,control,customised,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,control,customisation,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,control,full control,1,1,4,1926,0.5192,25.0
+2026-Q4,quarterly,autonomy,independence_autonomy,independent,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,independence_autonomy,independence,1,1,4,1926,0.5192,25.0
+2026-Q4,quarterly,autonomy,independence_autonomy,independently,1,1,4,1926,0.5192,25.0
+2026-Q4,quarterly,autonomy,independence_autonomy,autonomy,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,independence_autonomy,autonomous,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,independence_autonomy,self-host,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,independence_autonomy,self-hosted,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,independence_autonomy,self-hosting,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,independence_autonomy,local,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,independence_autonomy,locally,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,independence_autonomy,on-premises,3,2,4,1926,1.5576,50.0
+2026-Q4,quarterly,autonomy,independence_autonomy,on-premise,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,independence_autonomy,on premises,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,independence_autonomy,self-managed,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,sovereignty,sovereign,4,2,4,1926,2.0768,50.0
+2026-Q4,quarterly,autonomy,sovereignty,sovereignty,3,1,4,1926,1.5576,25.0
+2026-Q4,quarterly,autonomy,sovereignty,sovereign ai,4,2,4,1926,2.0768,50.0
+2026-Q4,quarterly,autonomy,sovereignty,data sovereignty,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,autonomy,sovereignty,digital sovereignty,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,infrastructure,infrastructure,12,3,4,1926,6.2305,75.0
+2026-Q4,quarterly,technology,infrastructure,cloud,5,3,4,1926,2.5961,75.0
+2026-Q4,quarterly,technology,infrastructure,compute,6,3,4,1926,3.1153,75.0
+2026-Q4,quarterly,technology,infrastructure,deployment,5,2,4,1926,2.5961,50.0
+2026-Q4,quarterly,technology,infrastructure,deploy,7,2,4,1926,3.6345,50.0
+2026-Q4,quarterly,technology,infrastructure,deployed,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,infrastructure,deployments,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,infrastructure,inference,2,2,4,1926,1.0384,50.0
+2026-Q4,quarterly,technology,infrastructure,hardware,1,1,4,1926,0.5192,25.0
+2026-Q4,quarterly,technology,infrastructure,gpu,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,infrastructure,gpus,1,1,4,1926,0.5192,25.0
+2026-Q4,quarterly,technology,infrastructure,data center,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,infrastructure,data centers,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,infrastructure,datacenter,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,infrastructure,datacenters,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,access_distribution,access,3,1,4,1926,1.5576,25.0
+2026-Q4,quarterly,technology,access_distribution,api,2,2,4,1926,1.0384,50.0
+2026-Q4,quarterly,technology,access_distribution,apis,1,1,4,1926,0.5192,25.0
+2026-Q4,quarterly,technology,access_distribution,platform,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,access_distribution,license,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,access_distribution,licenses,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,access_distribution,licensing,2,1,4,1926,1.0384,25.0
+2026-Q4,quarterly,technology,access_distribution,apache license,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,access_distribution,public,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,access_distribution,community,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,access_distribution,github,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,access_distribution,hugging face,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,access_distribution,download,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,access_distribution,downloads,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,customization,custom,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,customization,customize,4,3,4,1926,2.0768,75.0
+2026-Q4,quarterly,technology,customization,customized,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,customization,customizable,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,customization,customization,1,1,4,1926,0.5192,25.0
+2026-Q4,quarterly,technology,customization,customise,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,customization,customised,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,customization,customisation,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,customization,fine-tuning,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,customization,fine tuning,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,customization,finetuning,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,customization,training,6,2,4,1926,3.1153,50.0
+2026-Q4,quarterly,technology,customization,configure,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,customization,configuration,3,1,4,1926,1.5576,25.0
+2026-Q4,quarterly,technology,performance,performance,3,2,4,1926,1.5576,50.0
+2026-Q4,quarterly,technology,performance,benchmark,1,1,4,1926,0.5192,25.0
+2026-Q4,quarterly,technology,performance,benchmarks,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,performance,accuracy,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,performance,reasoning,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,performance,frontier,6,2,4,1926,3.1153,50.0
+2026-Q4,quarterly,technology,performance,state-of-the-art,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,performance,frontier ai,3,1,4,1926,1.5576,25.0
+2026-Q4,quarterly,technology,performance,frontier models,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,products,le chat,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,products,la plateforme,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,products,codestral,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,products,devstral,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,products,voxtral,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,products,pixtral,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,products,mistral compute,1,1,4,1926,0.5192,25.0
+2026-Q4,quarterly,technology,products,mistral studio,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,products,mistral vibe,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,products,mistral small,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,products,mistral large,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,products,mistral medium,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,products,ministral,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,products,mixtral,0,0,4,1926,0.0,0.0
+2026-Q4,quarterly,technology,products,forge,1,1,4,1926,0.5192,25.0

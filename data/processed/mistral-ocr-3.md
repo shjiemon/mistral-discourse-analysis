@@ -1,0 +1,83 @@
+Research
+
+# Introducing Mistral OCR 3
+
+December 17, 2025
+
+By Mistral
+
+### Highlights
+
+- Breakthrough performance: 74% overall win rate over Mistral OCR 2 on forms, scanned documents, complex tables, and handwriting.
+- State-of-the-art accuracy, outperforming both enterprise document processing solutions as well as AI-native OCR solutions
+- Now powers Document AI Playground in [Mistral AI Studio](https://console.mistral.ai/build/document-ai/ocr-playground), a simple drag-and-drop interface for parsing PDFs/images into clean text or structured JSON
+- Major upgrade over Mistral OCR 2 in forms, handwritten content, low-quality scans, and tables
+
+### Overview
+
+Mistral OCR 3 is designed to extract text and embedded images from a wide range of documents with exceptional fidelity. It supports markdown output enriched with HTML-based table reconstruction, enabling downstream systems to understand not just document content, but also structure. As a much smaller model than most competitive solutions, it is available at an industry-leading price of $2 per 1,000 pages, with a 50% Batch-API discount, reducing the cost to $1 per 1,000 pages.
+
+Developers can integrate the model (mistral-ocr-2512) via API, and users can leverage Document AI, a UI that parses documents into text or structured JSON instantly.
+
+### Benchmarks
+
+To raise the bar, we introduced more challenging internal benchmarks based on real business use-case examples from customers. We then evaluated several models across the domains highlighted below, comparing their outputs to ground truth using fuzzy-match metric for accuracy.
+
+### Upgrades over previous generations of OCR models
+
+Whereas most OCR solutions today specialize in specific document types, Mistral OCR 3 is designed to excel at processing the vast majority of document types in organizations and everyday settings.
+
+- Handwriting: Mistral OCR accurately interprets cursive, mixed-content annotations, and handwritten text layered over printed forms.
+- Forms: Improved detection of boxes, labels, handwritten entries, and dense layouts. Works well on invoices, receipts, compliance forms, government documents, and such.
+- Scanned & complex documents: Significantly more robust to compression artifacts, skew, distortion, low DPI, and background noise.
+- Complex tables: Reconstructs table structures with headers, merged cells, multi-row blocks, and column hierarchies. Outputs HTML table tags with colspan/rowspan to fully preserve layout.
+
+Mistral OCR 3 is a significant upgrade across all languages and document form factors compared to Mistral OCR 2.
+
+### Recommend use cases and applications
+
+Mistral OCR 3 is ideal for both high-volume enterprise pipelines and interactive document workflows. Developers can use it for:
+
+- Extracting text and images into markdown for downstream agents and knowledge systems
+- Automated parsing of forms, invoices, and operational documents
+- End-to-end document understanding pipelines
+- Digitization of handwritten or historical documents
+- Any other document → knowledge transformation applications.
+
+Our early customers are using Mistral OCR 3 to process invoices into structured fields, digitize company archives, extract clean text from technical and scientific reports, and improve enterprise search.
+
+“OCR remains foundational for enabling generative AI and agentic AI,” said Tim Law, IDC Director of Research for AI and Automation. “Those organizations that can efficiently and cost-effectively extract text and embedded images with high fidelity will unlock value and will gain a competitive advantage from their data by providing richer context.”
+
+### Available today
+
+Access the model either through the API or via the new Document AI Playground interface, both in [Mistral AI Studio](https://console.mistral.ai/build/document-ai/ocr-playground). Mistral OCR 3 is fully backward compatible with Mistral OCR 2. For more details, head over to [mistral.ai/docs](https://docs.mistral.ai/capabilities/document_ai/basic_ocr).
+
+For organizations with stringent data privacy requirements, Mistral OCR offers a self-hosting option. This ensures that sensitive or classified information remains secure within your own infrastructure, providing compliance with regulatory and security standards. If you would like to explore self-deployment with us, please [let us know](/contact).
+
+OCR 3
+
+Premier
+
+The world's best document extraction and understanding model.
+
+OCR
+
+Multimodal
+
+Text-to-text
+
+OCR
+
+$2
+
+/ 1000 pages
+
+Annotations
+
+$3
+
+/ 1000 pages
+
+mistral-ocr-latest
+
+Copy to clipboardCopied

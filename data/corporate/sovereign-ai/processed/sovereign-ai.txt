@@ -1,0 +1,64 @@
+Sovereignty is existential.
+Sovereign AI
+[ˈsɒvrɪn ˌeɪ ˈaɪ]
+AI systems and infrastructure designed to let organizations retain control over the critical intelligence they create and depend on, across data, models, adaptation, compute, runtime, and operations.
+AI learns more than your data. It absorbs how your organization works.
+And when that intelligence compounds inside systems you don't control, you give away power.
+Sovereign AI means the intelligence you build stays with you.
+Proprietary Data
+Documents
+Outcomes
+Intellectual Property
+Business Logic
+Reward Signals
+Tool Use
+Decision Histories
+Human Corrections
+Private Code
+Your organization
+External AI
+Your AI
+Sovereignty spans four layers of control.
+Data
+You control where your data goes and who can use it.
+Intelligence
+You own and shape what your AI learns and becomes. Models, adaptations, and the knowledge built through use stay under your control.
+Compute
+You control where your AI runs and on whose infrastructure.
+Operations
+You can keep going. A provider, model, or infrastructure change cannot stop the work your organization depends on.
+Your path to sovereignty.
+Use open models
+Customize your AI
+Control AI operations
+Choose where it runs
+Run it yourself
+Use open-weight models you can independently operate and evolve.
+Secure the model weights and architecture, along with the tokenizer and configurations required to run them correctly. Make sure you also have the rights to modify, fine-tune, distill, deploy, and retain what you build, so you can keep evolving the model without depending on the original provider.
+Retain the checkpoints and the training and post-training pipelines used to develop the models. They give you the ability to resume development and reproduce previous work, rather than treating each model version as a finished artifact you can’t recreate. Your evaluation framework lets you validate that the model still performs as expected. The runtime dependencies affect whether you can operate it in a different environment.
+Test that independence in practice. You should be able to resume training from your own checkpoint, reproduce a post-training run, move the model to another compute environment, and operate it without the original provider’s services. If you can’t, a dependency remains. Your licensing and operating rights should also survive the end of the commercial relationship.
+Adapt models around proprietary knowledge, workflows, and objectives, and keep what you build.
+As you adapt your models, version the data, base model, code, and configuration tied to each adaptation. Record the seeds, metrics, and outputs with each run so you can reproduce what you built, trace what changed, and compare it reliably over time.
+Keep the evaluation datasets and rubrics you use to measure performance. Your graders and thresholds then turn those standards into something you can apply consistently, judging each model and adaptation against your own requirements instead of a provider’s generic benchmark.
+As your organization uses the models, capture the context around production use. Model and prompt versions, retrievals, and tool calls tell you what the system was working with and how it behaved. Corrections, actions, and outcomes show what happened after the model responded and provide signals about how it performed in a real workflow. Together, those can feed your future evaluations and improvements.
+Route that feedback through a governed review process so only approved signals become evaluation or training assets, and production behavior does not change silently. Separately, control whether that data can be used to improve a shared model.
+Your models will change, but you should keep the accumulated intelligence. Your prompts, memory, retrieval assets, adaptations, evaluations, and feedback enable you to test a replacement model against your established standards without starting over.
+Control how AI is governed, changed, and kept running in production.
+Define distinct identities and scoped permissions for people, services, and agents, so you can prevent an agent from gaining more authority than the person or service it represents. Enterprise identity controls establish who or what is acting, while delegated credentials limit what that identity can do. Short-lived credentials limit how long that access lasts.
+Apply policy to model choice, data access, and retrieval before execution. Extend those policies to the tools an agent can use, the actions it can take, and where approval is required. This blocks prohibited behavior from the outset rather than leaving it to be discovered later. High-impact actions may require explicit approval or a dry run before they are allowed to proceed.
+Logs and traces give you a record of what happened. Connect model calls and prompts with retrievals, tools, policies, actions, and outcomes so you can reconstruct an execution, investigate failures, and show which controls applied.
+Version the prompts, agents, workflows, tools, policies, and model bindings that determine how the system behaves. You’ll then have a controlled way to test changes, approve them, and roll them back if something goes wrong.
+Finally, keep the configuration, identity mappings, and operating state required to run the system. That lets you restore the controls and behavior your production AI depends on after an outage, component update, or provider change.
+Choose where AI runs, who operates it, and what capacity it can rely on.
+Sovereign AI does not mean everything needs to run on-premises. Each AI system can run inside the security, jurisdictional, and operational boundary it requires. Some workloads can use shared infrastructure. Others may need dedicated infrastructure, your own VPC, a private cloud, on-premises infrastructure, or a disconnected environment.
+Know where the data plane runs–the environment where your training and inference workloads execute. Then understand where the control and management planes run, who operates them, and whether they depend on external licensing, identity, telemetry, updates, or support.
+For critical systems, secure the capacity, throughput, and service levels you need. Define how quotas, throttling, and contention are handled so you know what capacity will be available when demand spikes.
+The same rules should apply when normal operations fail. Apply your placement rules to burst and overflow capacity, and to fallback, failover, and disaster recovery so an incident cannot silently move your AI to an unapproved geography, operator, or environment.
+Portability should mean you can stand the system up in a second approved environment without redesigning it. Package the deployment in portable containers, and document the infrastructure configuration, hardware, drivers, and runtime dependencies it requires.
+Build, operate, and improve your AI systems without external dependencies.
+Outside experts can help adapt models, build evaluations, integrate AI with your systems, and solve difficult infrastructure problems. Make sure capability transfer is part of the work. Your teams should know the architecture and decisions behind it, along with the methods used to train, deploy, operate, and improve the system.
+Give your teams access to the tooling, artifacts, and runbooks needed to put that knowledge into practice. They should be able to reproduce an adaptation and evaluate a replacement model themselves. They should also be able to diagnose a production issue, change infrastructure, and recover the system without needing the original experts to return and do it for them.
+The AI frontier that matters is yours: how reliably AI performs against your data, workflows, evaluations, economics, and operating requirements. Outside expertise should move that frontier faster while leaving your organization better able to keep moving it on its own.
+Every organization should be
+able to own the intelligence it creates.
+Learn more about our customers

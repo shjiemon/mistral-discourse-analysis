@@ -1,0 +1,13 @@
+Products
+Build your AI with Mistral.
+Models, software, and infrastructure to customize AI, put it to work, and operate it your way.
+Vibe
+AI agents for research, analysis, creation, and everyday work.
+Studio
+Build, govern, and improve AI agents and applications.
+Inference
+Use open-weight and specialist models from Mistral and third-parties on one API, powered by Mistral Cloud.
+Compute
+Reserve dedicated, high-performance GPUs in Europe, without having to source, build, or operate infrastructure.
+Forge
+Customize, train, and optimize models for your organization.

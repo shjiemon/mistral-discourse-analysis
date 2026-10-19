@@ -1,3 +1,9 @@
+# macOS
+.DS_Store
+
+# Temporary files
+outer_html.txt
+
 # Python
 .venv/
 __pycache__/
@@ -8,11 +14,6 @@ __pycache__/
 # Environment variables and secrets
 .env
 .env.*
-
-# Downloaded source material
-data/raw/*
-data/processed/*
-data/wayback/*
 
 # Generated results
 results/*

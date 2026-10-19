@@ -1,0 +1,485 @@
+slug,source_type,date,period,aggregation,group,category,term,occurrences,word_count
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,openness,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,openly,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open-source,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open-weight,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open-weights,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open source,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open weights,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open models,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,choice,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,choices,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,choose,2,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,choosing,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,freedom,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,flexibility,1,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,flexible,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,option,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,options,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,alternative,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,alternatives,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,control,4,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,controls,1,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,controlled,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,controlling,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,ownership,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,own,4,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,custom,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customize,1,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customized,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customizable,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customization,1,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customise,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customised,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customisation,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,full control,1,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,independent,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,independence,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,independently,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,autonomy,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,autonomous,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,self-host,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,self-hosted,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,self-hosting,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,local,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,locally,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,on-premises,1,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,on-premise,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,on premises,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,self-managed,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,sovereignty,sovereign,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,sovereignty,sovereignty,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,sovereignty,sovereign ai,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,sovereignty,data sovereignty,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,sovereignty,digital sovereignty,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,infrastructure,1,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,cloud,3,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,compute,2,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,deployment,4,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,deploy,5,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,deployed,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,deployments,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,inference,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,hardware,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,gpu,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,gpus,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,data center,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,data centers,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,datacenter,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,datacenters,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,access,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,api,1,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,apis,1,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,platform,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,license,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,licenses,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,licensing,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,apache license,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,public,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,community,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,github,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,hugging face,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,download,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,downloads,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,custom,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customize,1,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customized,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customizable,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customization,1,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customise,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customised,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customisation,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,fine-tuning,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,fine tuning,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,finetuning,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,training,2,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,configure,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,configuration,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,performance,2,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,benchmark,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,benchmarks,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,accuracy,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,reasoning,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,frontier,4,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,state-of-the-art,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,frontier ai,3,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,frontier models,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,le chat,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,la plateforme,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,codestral,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,devstral,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,voxtral,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,pixtral,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mistral compute,1,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mistral studio,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mistral vibe,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mistral small,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mistral large,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mistral medium,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,ministral,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mixtral,0,541
+our-method,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,forge,0,541
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,openness,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,openly,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open-source,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open-weight,1,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open-weights,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open source,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open weights,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open models,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,choice,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,choices,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,choose,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,choosing,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,freedom,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,flexibility,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,flexible,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,option,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,options,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,alternative,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,alternatives,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,control,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,controls,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,controlled,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,controlling,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,ownership,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,own,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,custom,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customize,2,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customized,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customizable,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customization,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customise,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customised,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customisation,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,full control,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,independent,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,independence,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,independently,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,autonomy,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,autonomous,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,self-host,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,self-hosted,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,self-hosting,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,local,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,locally,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,on-premises,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,on-premise,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,on premises,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,self-managed,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,sovereignty,sovereign,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,sovereignty,sovereignty,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,sovereignty,sovereign ai,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,sovereignty,data sovereignty,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,sovereignty,digital sovereignty,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,infrastructure,2,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,cloud,1,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,compute,1,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,deployment,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,deploy,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,deployed,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,deployments,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,inference,1,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,hardware,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,gpu,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,gpus,1,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,data center,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,data centers,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,datacenter,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,datacenters,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,access,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,api,1,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,apis,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,platform,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,license,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,licenses,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,licensing,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,apache license,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,public,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,community,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,github,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,hugging face,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,download,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,downloads,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,custom,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customize,2,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customized,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customizable,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customization,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customise,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customised,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customisation,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,fine-tuning,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,fine tuning,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,finetuning,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,training,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,configure,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,configuration,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,performance,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,benchmark,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,benchmarks,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,accuracy,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,reasoning,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,frontier,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,state-of-the-art,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,frontier ai,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,frontier models,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,le chat,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,la plateforme,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,codestral,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,devstral,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,voxtral,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,pixtral,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mistral compute,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mistral studio,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mistral vibe,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mistral small,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mistral large,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mistral medium,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,ministral,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mixtral,0,82
+products,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,forge,1,82
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open,1,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,openness,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,openly,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open-source,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open-weight,1,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open-weights,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open source,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open weights,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open models,1,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,choice,1,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,choices,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,choose,2,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,choosing,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,freedom,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,flexibility,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,flexible,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,option,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,options,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,alternative,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,alternatives,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,control,10,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,controls,3,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,controlled,1,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,controlling,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,ownership,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,own,6,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,custom,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customize,1,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customized,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customizable,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customization,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customise,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customised,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customisation,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,full control,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,independent,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,independence,1,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,independently,1,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,autonomy,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,autonomous,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,self-host,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,self-hosted,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,self-hosting,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,local,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,locally,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,on-premises,2,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,on-premise,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,on premises,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,self-managed,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,sovereignty,sovereign,3,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,sovereignty,sovereignty,3,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,sovereignty,sovereign ai,3,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,sovereignty,data sovereignty,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,sovereignty,digital sovereignty,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,infrastructure,9,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,cloud,1,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,compute,3,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,deployment,1,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,deploy,2,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,deployed,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,deployments,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,inference,1,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,hardware,1,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,gpu,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,gpus,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,data center,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,data centers,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,datacenter,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,datacenters,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,access,3,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,api,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,apis,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,platform,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,license,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,licenses,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,licensing,2,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,apache license,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,public,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,community,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,github,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,hugging face,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,download,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,downloads,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,custom,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customize,1,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customized,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customizable,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customization,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customise,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customised,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customisation,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,fine-tuning,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,fine tuning,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,finetuning,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,training,4,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,configure,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,configuration,3,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,performance,1,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,benchmark,1,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,benchmarks,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,accuracy,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,reasoning,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,frontier,2,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,state-of-the-art,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,frontier ai,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,frontier models,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,le chat,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,la plateforme,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,codestral,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,devstral,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,voxtral,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,pixtral,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mistral compute,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mistral studio,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mistral vibe,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mistral small,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mistral large,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mistral medium,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,ministral,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mixtral,0,1211
+sovereign-ai,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,forge,0,1211
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,openness,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,openly,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open-source,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open-weight,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open-weights,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open source,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open weights,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,openness,open models,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,choice,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,choices,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,choose,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,choosing,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,freedom,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,flexibility,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,flexible,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,option,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,options,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,alternative,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,choice,alternatives,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,control,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,controls,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,controlled,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,controlling,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,ownership,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,own,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,custom,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customize,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customized,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customizable,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customization,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customise,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customised,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,customisation,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,control,full control,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,independent,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,independence,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,independently,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,autonomy,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,autonomous,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,self-host,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,self-hosted,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,self-hosting,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,local,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,locally,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,on-premises,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,on-premise,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,on premises,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,independence_autonomy,self-managed,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,sovereignty,sovereign,1,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,sovereignty,sovereignty,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,sovereignty,sovereign ai,1,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,sovereignty,data sovereignty,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,autonomy,sovereignty,digital sovereignty,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,infrastructure,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,cloud,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,compute,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,deployment,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,deploy,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,deployed,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,deployments,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,inference,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,hardware,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,gpu,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,gpus,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,data center,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,data centers,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,datacenter,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,infrastructure,datacenters,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,access,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,api,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,apis,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,platform,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,license,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,licenses,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,licensing,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,apache license,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,public,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,community,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,github,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,hugging face,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,download,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,access_distribution,downloads,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,custom,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customize,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customized,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customizable,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customization,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customise,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customised,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,customisation,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,fine-tuning,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,fine tuning,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,finetuning,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,training,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,configure,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,customization,configuration,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,performance,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,benchmark,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,benchmarks,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,accuracy,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,reasoning,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,frontier,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,state-of-the-art,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,frontier ai,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,performance,frontier models,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,le chat,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,la plateforme,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,codestral,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,devstral,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,voxtral,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,pixtral,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mistral compute,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mistral studio,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mistral vibe,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mistral small,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mistral large,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mistral medium,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,ministral,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,mixtral,0,92
+use-cases,corporate_website,2026-10-06,2026-Q4,quarterly,technology,products,forge,0,92

@@ -1,0 +1,34 @@
+Use cases
+Sovereign AI in practice.
+Explore customer use cases across engineering, operations, and research.
+Industries
+16
+results
+Government
+Manufacturing
+Financial Services
+Energy
+Technology
+Healthcare and Life Sciences
+Consumer Products and Retail
+Transportation and Logistics
+Capabilities
+Software Engineering / Coding
+Digital Assistant
+Search
+Speech
+Customer Support
+Cybersecurity
+Risk and Compliance
+Document Intelligence
+Agentic Workflows
+Industrial Engineering
+AI fact-checking for live broadcasts
+AI for CAD workflows
+AI for KYC onboarding
+AI for P&ID analysis
+AI for RFP responses
+AI for code review
+AI for credit analysis
+AI for customer support
+AI for deal sourcing

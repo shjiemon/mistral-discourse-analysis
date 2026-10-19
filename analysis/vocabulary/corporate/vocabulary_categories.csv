@@ -1,0 +1,11 @@
+period,aggregation,group,category,matched_token_positions,articles_with_category,total_articles,total_words,per_1000_words,article_prevalence_pct
+2026-Q4,quarterly,autonomy,choice,6,2,4,1926,3.1153,50.0
+2026-Q4,quarterly,autonomy,control,35,3,4,1926,18.1724,75.0
+2026-Q4,quarterly,autonomy,independence_autonomy,5,2,4,1926,2.5961,50.0
+2026-Q4,quarterly,autonomy,openness,4,2,4,1926,2.0768,50.0
+2026-Q4,quarterly,autonomy,sovereignty,11,2,4,1926,5.7113,50.0
+2026-Q4,quarterly,technology,access_distribution,8,3,4,1926,4.1537,75.0
+2026-Q4,quarterly,technology,customization,14,3,4,1926,7.269,75.0
+2026-Q4,quarterly,technology,infrastructure,39,3,4,1926,20.2492,75.0
+2026-Q4,quarterly,technology,performance,13,2,4,1926,6.7497,50.0
+2026-Q4,quarterly,technology,products,3,2,4,1926,1.5576,50.0
