@@ -1,43 +1,97 @@
-# Mistral news discourse — corpus collector (Phase 1–2 starter)
+# Mistral AI — Discourse and Infrastructure Research
 
-This is an **initial collector**, not yet a validated research corpus. It discovers article URLs from the live news overview and available sitemaps, then saves HTML, extracted article text, and an inventory.
+Research repository for *Mistral AI: Rethinking Technological Autonomy through Infrastructural Dependence*.
 
-## Install and pilot
+The project investigates how Mistral AI's proposition of technological autonomy has evolved since its founding, and how that proposition relates to its own infrastructural dependencies.
+
+The research adopts a **technographic approach**, complemented by an exploratory vocabulary analysis of Mistral's public communications.
+
+For research design, corpus construction, analytical procedures, and limitations, see [METHODOLOGY.md](METHODOLOGY.md).
+
+## Repository contents
+
+| Directory | Contents |
+|---|---|
+| `data/raw/` | Retrieved HTML of Mistral news articles |
+| `data/processed/` | Extracted news articles in Markdown and plain text |
+| `data/corporate/sovereign-ai/` | Four supplementary corporate webpages |
+| `data/wayback/` | Historical material collected through the Wayback Machine |
+| `analysis/vocabulary/` | Dictionary, vocabulary results, and visualization |
+| `scripts/` | Collection, extraction, analysis, and visualization scripts |
+| `results/` | Corpus inventories and intermediate collection results |
+
+The primary corpus contains **90 English-language Mistral news articles** (September 2023–October 2026), supplemented by four corporate webpages captured in October 2026.
+
+## Setup
+
+Requires Python 3.
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
-python scripts/collect.py --limit 5
 ```
 
-Inspect `data/processed/*.txt` alongside the corresponding original pages. Check for missing paragraphs, duplicated text, navigation text, correct dates and authors. The `main` or `article` selector is **not guaranteed** to extract the correct article body on every page.
+## Reproduce the vocabulary analysis
 
-If the pilot works, run:
+Run the analysis using the preserved corpus:
+
+```bash
+python scripts/analyze_vocabulary_timeline.py --corpus news --output analysis/vocabulary/news
+
+python scripts/analyze_vocabulary_timeline.py --corpus corporate --output analysis/vocabulary/corporate
+
+python scripts/analyze_vocabulary_timeline.py --corpus expanded --output analysis/vocabulary/expanded
+```
+
+The three configurations analyze news articles, corporate webpages, or both combined.
+
+Generate the historical vocabulary visualization:
+
+```bash
+python scripts/plot_vocabulary_timeline.py
+```
+
+The resulting figure is saved to:
+
+`analysis/vocabulary/news/autonomy_vocabulary_v1.png`
+
+## Collection and supplementary scripts
+
+The news collector can be run using:
 
 ```bash
 python scripts/collect.py
 ```
 
-The script reuses saved HTML by default. Use `--refresh` to redownload. Use `--delay 2` for slower requests. Stop if the website disallows automated collection, or if it returns rate-limit responses. Respect robots.txt and site terms; avoid aggressive scraping.
+To test collection on a small sample:
 
-## Data
+```bash
+python scripts/collect.py --limit 5
+```
 
-- `results/discovered_urls.txt`: discovered URLs
-- `results/corpus_inventory.csv`: metadata, extraction method, word counts, errors
-- `data/raw/*.html`: raw retrieved page HTML
-- `data/processed/*.txt`: candidate article-body text
+**Note:** Recollecting live webpages may produce different results. Use the preserved corpus to reproduce the existing analysis.
 
-## Known limitations / next steps
+Extract text from the preserved corporate HTML captures:
 
-1. **Discovery may be incomplete** if the site loads articles through client-side JavaScript or paginates without server-rendered links. Compare discovered URLs with archive counts and Wayback captures.
-2. **Dates can be absent**: inspect metadata and fall back to page-specific date extraction, rather than silently inventing dates.
-3. **Article body extraction is provisional**. Validate a cross-year sample before analysing.
-4. **Historical comparison is not implemented yet**. Next build a Wayback capture inventory, retrieve earliest usable captures, compare extracted bodies, and flag differences for human review.
-5. **Vocabulary analysis is not implemented yet**. Only build it after validating the corpus.
-6. **Current pages may have been edited**. Archive comparisons can establish stability only across available captures.
-7. News posts with joint authorship and non-English text need explicit inclusion rules.
+```bash
+python scripts/extract_corporate_pages.py
+```
 
-## Scope
+The repository also includes scripts for corpus checks, exploratory vocabulary analysis, and Wayback investigations.
 
-English-language official Mistral news posts, 2023 through collection date; non-English and joint-authored posts should be flagged for explicit decisions. No conclusions about the whole discourse until coverage is verified.
+Browser-based Wayback investigations require Playwright's Chromium browser:
+
+```bash
+python -m playwright install chromium
+```
+
+## Research status
+
+The news corpus, supplementary corporate-page collection, and exploratory vocabulary analysis have been assembled.
+
+The broader technographic investigation of Mistral's technical offerings, partnerships, and infrastructural dependencies is ongoing.
+
+The vocabulary analysis identifies changes in corporate discourse; it does not independently establish changes in technological autonomy.
+
+See [METHODOLOGY.md](METHODOLOGY.md) for methodological qualifications.
