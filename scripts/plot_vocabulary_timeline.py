@@ -4,12 +4,28 @@ import matplotlib.pyplot as plt
 from matplotlib import font_manager
 import pandas as pd
 
-# Use locally installed static Bitter faces for reliable weight selection.
+# Prefer Bitter when available; otherwise use Matplotlib's bundled font.
 font_dir = Path.home() / 'Library/Fonts'
-for filename in ('Bitter-Regular-Static.ttf', 'Bitter-Bold-Static.ttf'):
-    font_manager.fontManager.addfont(str(font_dir / filename))
-plt.rcParams.update({'font.family': 'Bitter', 'font.weight': 'normal',
-                     'axes.titleweight': 'normal', 'axes.labelweight': 'normal'})
+bitter_fonts = [
+    font_dir / 'Bitter-Regular-Static.ttf',
+    font_dir / 'Bitter-Bold-Static.ttf',
+]
+
+if all(font.exists() for font in bitter_fonts):
+    for font in bitter_fonts:
+        font_manager.fontManager.addfont(str(font))
+
+    font_family = 'Bitter'
+else:
+    font_family = 'DejaVu Sans'
+    print('Bitter fonts not found; using DejaVu Sans.')
+
+plt.rcParams.update({
+    'font.family': font_family,
+    'font.weight': 'normal',
+    'axes.titleweight': 'normal',
+    'axes.labelweight': 'normal',
+})
 
 INPUT = Path('analysis/vocabulary/news/vocabulary_categories.csv')
 DICTIONARY = Path('analysis/vocabulary/dictionary.json')
