@@ -12,7 +12,7 @@ An exploratory vocabulary analysis complements this approach by tracing changes 
 
 ## Corpus construction
 
-The primary corpus contains **90 English-language articles** collected from Mistral's official news website, covering September 2023–October 2026.
+The primary corpus contains **89 English-language articles** collected from Mistral's official news website, covering September 2023–October 2026.
 
 The collector (`scripts/collect.py`) discovers URLs through the news overview and sitemaps. It preserves retrieved HTML, extracted Markdown and plain text, and publication metadata.
 
