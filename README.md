@@ -20,7 +20,7 @@ For research design, corpus construction, analytical procedures, and limitations
 | `scripts/` | Collection, extraction, analysis, and visualization scripts |
 | `results/` | Corpus inventories and intermediate collection results |
 
-The primary corpus contains **90 English-language Mistral news articles** (September 2023–October 2026), supplemented by four corporate webpages captured in October 2026.
+The primary corpus contains **89 English-language Mistral news articles** (September 2023–October 2026), supplemented by four corporate webpages captured in October 2026.
 
 ## Setup
 
